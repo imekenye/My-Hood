@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static  'css/material-kit.css' %}">
+    <title>My Hood</title>
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+    <script src="{% static 'js/material-kit.js'  %}"></script>
+    <script src="{% static 'js/jquery.min.js'  %}"></script>
+    <script src="{% static 'js/jquery.sharrre.js'  %}"></script>
+    <script src="{% static 'js/bootstrap-material-design.min.js'  %}"></script>
+    <script src="{% static 'js/popper.min.js'  %}"></script>
+    <script src="{% static 'js/moment.min.js'  %}"></script>
+    <script src="{% static 'js/nouislider.min.js'  %}"></script>
+</body>
+</html>
