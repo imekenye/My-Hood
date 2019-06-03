@@ -1,5 +1,40 @@
 {% extends 'base.html' %}
 {% block content %}
     {% include 'partials/_navbar.html' %}
-    <h1>Homepage</h1>
+    <div class="container">
+        <div class="row">
+
+            <form class="form-inline w-100 col-md-12">
+                <div class="form-group no-border w-100">
+                    <input type="text" class="form-control w-100 " placeholder="Search Business">
+                </div>
+                <button type="submit" class="btn btn-white btn-sm">
+                    Search
+                </button>
+            </form>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row d-flex flex-wrap ">
+            {% for post in posts %}
+
+
+                <div class="card mb-5 shadow mx-auto card-lift--hover text-center" style=".card{width: 20%; !important;}">
+                    <img class="card-img-top" src="{{ post.post_image.url }}">
+                    <div class="card-body">
+                        <div class="article-metadata">
+                            <a class="mr-2" href="#">{{ post.author }}</a>
+                            <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+                        </div>
+                        <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a>
+                        </h2>
+                        <p class="article-content">{{ post.content }}</p>
+                        <a href="">{{ post.url }}</a>
+                    </div>
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
 {% endblock %}
