@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17ecbf5a-ec12-4230-a9dd-3c0e7c8cef66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myhood/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myhood/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myhood/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myhood/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/pages/post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/pages/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/pages/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
-    </list>
+    <list default="true" id="17ecbf5a-ec12-4230-a9dd-3c0e7c8cef66" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +292,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559415350310</updated>
       <workItem from="1559415429615" duration="8597000" />
-      <workItem from="1559575568344" duration="17914000" />
+      <workItem from="1559575568344" duration="18162000" />
     </task>
     <task id="LOCAL-00001" summary="add index html template">
       <created>1559513056051</created>
@@ -495,14 +476,84 @@
       <option name="project" value="LOCAL" />
       <updated>1559584294015</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update navbar">
+      <created>1559599089965</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599089965</updated>
+    </task>
+    <task id="LOCAL-00028" summary="register business,post,and neighbourhood models">
+      <created>1559599124393</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599124393</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update apps file">
+      <created>1559599141950</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599141950</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update forms file">
+      <created>1559599153753</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599153753</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update index file">
+      <created>1559599164673</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599164673</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update models">
+      <created>1559599185666</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599185666</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update pages models">
+      <created>1559599197009</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599197009</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add html files">
+      <created>1559599223447</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599223447</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update file structure">
+      <created>1559599256154</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599256154</updated>
+    </task>
+    <task id="LOCAL-00036" summary="perform migrations">
+      <created>1559599273007</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599273007</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26511000" />
+    <option name="totallyTimeSpent" value="26759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="89" width="1037" height="697" extended-state="0" />
+    <frame x="228" y="23" width="1037" height="697" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.3798995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -516,10 +567,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32879046" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32879046" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32879046" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -533,15 +584,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add index html template" />
-    <MESSAGE value="add urls file to pages app" />
-    <MESSAGE value="configure urls file" />
-    <MESSAGE value="add index view function" />
-    <MESSAGE value="include static files" />
-    <MESSAGE value="add js files" />
-    <MESSAGE value="add navbar html file" />
-    <MESSAGE value="add psycopg2 in requirements file" />
-    <MESSAGE value="set up database" />
     <MESSAGE value="add accounts app" />
     <MESSAGE value="set up accounts template file" />
     <MESSAGE value="add if condition to navbar" />
@@ -557,6 +599,15 @@
     <MESSAGE value="add url pattern" />
     <MESSAGE value="add view functions to accounts app" />
     <MESSAGE value="add view functions to pages app" />
+    <MESSAGE value="update navbar" />
+    <MESSAGE value="register business,post,and neighbourhood models" />
+    <MESSAGE value="update apps file" />
+    <MESSAGE value="update forms file" />
+    <MESSAGE value="update index file" />
+    <MESSAGE value="update models" />
+    <MESSAGE value="update pages models" />
+    <MESSAGE value="add html files" />
+    <MESSAGE value="update file structure" />
     <MESSAGE value="perform migrations" />
     <option name="LAST_COMMIT_MESSAGE" value="perform migrations" />
   </component>
