@@ -20,10 +20,12 @@ from pages import views
 from django.conf import settings
 from django.conf.urls.static import static
 from accounts import views as user_views
-# from pages.views import PostView, ProfileView,PostListView
+from pages.views import PostListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('', views.home, name='home'),
+    path('', PostListView.as_view(), name='home'),
     path('', include('pages.urls')),
     path('register/', user_views.register, name='register'),
     path('profile/', user_views.profile, name='profile'),
