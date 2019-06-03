@@ -24,7 +24,7 @@ class NeighbourHood(models.Model):
     hood_name = models.CharField(max_length=50)
     hood_location = models.CharField(max_length=50)
     occupants = models.IntegerField(blank=True, null=True)
-    admin = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.hood_name
